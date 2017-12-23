@@ -1,0 +1,159 @@
+.header {
+background-color: #fff;
+direction: flex;
+}
+
+.menu {  
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.klick {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.body {
+    background-color: rgb(234, 252, 255);
+}
+
+.block-loho {
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+.block-loho__h2 {
+    padding-bottom: 20px;
+ 
+}
+
+.block-loho__h2:after {
+    content: '';
+    border-bottom: 1px solid black;
+}
+
+.block-loho__p {
+    margin-top: 20px;
+}
+
+.block-foto {
+    background-color: rgb(234, 252, 255);
+}
+
+.foto {
+    max-width: 100%;
+}
+
+.block-text {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.p { 
+    border-bottom: 1px solid black;
+}
+
+.fon {
+    background-color: rgb(234, 252, 255);
+
+}
+
+.block-text__p {
+    margin-left: 420px;
+    margin-right: 420px;
+    padding-bottom: 5px;
+}
+
+.block {
+    margin-top: 30px;
+}
+
+.block-info {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+
+.info-text {
+    border-bottom: 1px solid black;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: #fff;
+}
+
+.info-text__p {
+    margin-bottom: 0;
+}
+
+.block__foto {
+    max-width: 100%;
+}
+
+.button {
+    direction: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2px;
+    border-bottom: 1px solid black;
+    border-top:  1px solid black;
+    border-left:  1px solid black;
+    border-right:  1px solid black;
+    padding: 10px;
+    color: black;
+    background-color: rgb(234, 252, 255);
+}
+
+.block-button {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 60px 0;
+}
+
+.block-h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.block-pickture {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.block-pickture__img {
+    max-width: 100%;
+}
+
+.fon-button {
+    padding: 40px 0 40px 0;
+    text-align: center;
+    background-color: rgb(77, 71, 71);
+    color: #fff;
+}
+
+.btn-lg  {
+  border: none;
+} 
+
+.block-button-info__h5 {
+    margin-top: 40px;
+}
+
+.set {
+    margin-top: 30px;
+}
+
+.text-button {
+    border-top: 1px solid #fff;
+    margin: 0 220px 0 220px;
+    padding-top: 30px;
+}
